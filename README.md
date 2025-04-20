@@ -29,22 +29,29 @@ All these codes were written while learning all the new stuff, so I couldn’t f
 
 Layer on top OS we can say although not accurate. Auv uses ros mainly as a comms interface.  
 
+<img width="609" alt="Image" src="https://github.com/user-attachments/assets/1710433b-0e0e-45f8-b317-86ccf88d233d" />
+
 The pipes are are given a name and referred to as topic.  
 Scripts can be called as nodes.  
 
 There are 3 main types of DDS:
 
 ### 1. Publisher and Subscriber:
+
+<img width="613" alt="Image" src="https://github.com/user-attachments/assets/200b3141-b304-4f1e-8d3d-101c789ec6b8" />
+
 Similar to the YouTube model.
 
 ### 2. Services:
 
 <img width="509" alt="Image" src="https://github.com/user-attachments/assets/1704414f-25ea-4255-bbe7-62808d8604d1" />
+
 After completing a survey, a response is sent to the requested node.
 
 ### 3. Actions:
 
 <img width="616" alt="Image" src="https://github.com/user-attachments/assets/bb2277db-5baf-4dcd-930c-0504ee6ccac6" />
+
 Progress reports(feedback) sent till some condition is met.
 
 Learnt about catkin tools and how to create a catkin workspace.  
