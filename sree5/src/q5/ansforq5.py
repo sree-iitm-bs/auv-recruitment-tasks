@@ -42,7 +42,7 @@ bridge=CvBridge()
 with dai.Device(pipeline) as device:
 	#*Output queue for video frames blocking will wait until new data is available program will not continue until new data is available*#
 	queue = device.getOutputQueue(name="cam", maxSize=30, blocking=False)
-         i=0
+        i=0
 	
   	while not rospy.is_shutdown():
   		#getting the frame
