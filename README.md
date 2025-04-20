@@ -38,9 +38,13 @@ There are 3 main types of DDS:
 Similar to the YouTube model.
 
 ### 2. Services:
+
+<img width="509" alt="Image" src="https://github.com/user-attachments/assets/1704414f-25ea-4255-bbe7-62808d8604d1" />
 After completing a survey, a response is sent to the requested node.
 
 ### 3. Actions:
+
+<img width="616" alt="Image" src="https://github.com/user-attachments/assets/bb2277db-5baf-4dcd-930c-0504ee6ccac6" />
 Progress reports(feedback) sent till some condition is met.
 
 Learnt about catkin tools and how to create a catkin workspace.  
@@ -56,9 +60,12 @@ Many build files created are symlinks to the contents of the `/opt/ros/noeltic`.
 ### Pipeline for depth map:
 We use stereo vision.  
 Image rectification helps reduce the range to be scanned and disparity is inversely proportional to depth.
+
 <img width="1041" alt="Image" src="https://github.com/user-attachments/assets/4d819410-6939-4c91-9f42-47a0fbc896be" />
 
 Still must go through how the disparity and rectification is calculated.
+
+<img width="619" alt="Image" src="https://github.com/user-attachments/assets/0dabb69a-defa-4979-a0c3-934f2543d343" />
 
 ---
 
