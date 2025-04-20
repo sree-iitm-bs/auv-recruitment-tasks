@@ -1,0 +1,48 @@
+## OAK-D Pipeline Setup
+
+### Setting up a pipeline for OAK-D
+
+im exposed to the basics of image processing  
+all of image processing core ideas is convolving and correlation we transform the sample sequence to frequence domain using fft for faster calculations  
+processing for me is all about 2d fourier transform depency on 2 spatial variables and manipulating it to get valid results is what image  
+convolving is the key operation we translate it to multiplying in the frequency domain
+
+use depthai api to access the left and right mono chrome cameras
+
+depthmapping works based on disparity  
+disparity the distance between the same point on left and right cam is inversly proportional to the depth
+
+image is a grid of pixels and each pixel has a color we represent it as numpy arrays  
+for color image image[x][y]=[B, G, R]  
+there are a lot of models hsv rbg etc array varies accordingly
+
+### DEPTHAI PIPELINE:
+collection of nodes  
+nodes are a unit with some input and output  
+output linked to input of other nodes in the pipeline
+
+we define host as the system connect to our cam using a usb c connection(only port)  
+we have right mono cam left mono cam and a center rbg cam
+
+output of xlinkout is not a single frame it creates a queue where we can store many frames so we get a option for a queuesize
+
+later found out about setting resolution  
+grayscale images pixel value from 0 to 255(8bit)  
+depth mapping works by calculating the difference between the two stereo images
+
+### GETTING THE DEPTH MAP:
+id really like to code this too but i have 2 projects with deadline as monday so id have to cut costs TT  
+stereo depth estimation:  
+in the stereo vision after supimposing the closer the object the more the disparity  
+monocam is greyscaled but we can always map it to a colormap  
+for the depth to get correct both cams have to able to see the point  
+issues arises when both cam cannot see the the point it becomes monocular we cant find the depth so we set it to 0  
+for fast processing we search disparity in a range if the object is close we need to search a lot so there is a minimum depth for good accuracy we can always increse the search area but reduces the speed  
+estimation is also wrong when we cannot match the counterpart point  
+when the surface is huge and similar it will be tough to match the pixels as everything will be the same  
+image rectfication: transform images of a stereo view so all corresponding points lie on a scan line  
+important for stereo matching cant spend time to search entire image  
+as a result we get rectified views  
+we dont search all pixels in the scan line search only upto the set minimum  
+
+press toggle T to merge the two frames iee the left frame and the right frame
