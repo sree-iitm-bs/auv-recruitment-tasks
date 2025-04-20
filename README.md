@@ -56,6 +56,7 @@ Many build files created are symlinks to the contents of the `/opt/ros/noeltic`.
 ### Pipeline for depth map:
 We use stereo vision.  
 Image rectification helps reduce the range to be scanned and disparity is inversely proportional to depth.
+<img width="1041" alt="Image" src="https://github.com/user-attachments/assets/4d819410-6939-4c91-9f42-47a0fbc896be" />
 
 Still must go through how the disparity and rectification is calculated.
 
