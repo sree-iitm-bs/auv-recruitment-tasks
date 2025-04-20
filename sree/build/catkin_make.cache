@@ -1,0 +1,2 @@
+q2
+-DCATKIN_DEVEL_PREFIX=/home/invictus/sree/devel -DCMAKE_INSTALL_PREFIX=/home/invictus/sree/install -G Unix Makefiles

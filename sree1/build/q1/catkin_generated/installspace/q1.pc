@@ -1,0 +1,8 @@
+prefix=/home/invictus/sree1/install
+
+Name: q1
+Description: Description of q1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

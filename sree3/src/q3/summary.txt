@@ -1,0 +1,13 @@
+From wikipedia:
+Six degrees of freedom (6DOF), or sometimes six degrees of movement, refers to the six mechanical degrees of freedom of movement of a rigid body in three-dimensional space. Specifically, the body is free to change position as forward/backward (surge), up/down (heave), left/right (sway) translation in three perpendicular axes, combined with changes in orientation through rotation about three perpendicular axes, often termed yaw (normal axis), pitch (transverse axis), and roll (longitudinal axis)
+
+Translational envelopes:
+
+Moving forward and backward on the X-axis. (Surge)
+Moving left and right on the Y-axis. (Sway)
+Moving up and down on the Z-axis. (Heave)
+Rotational envelopes:
+
+Tilting side to side on the X-axis. (Roll)
+Tilting forward and backward on the Y-axis. (Pitch)
+Turning left and right on the Z-axis. (Yaw)

@@ -1,0 +1,15 @@
+convo start:2025-04-18 20:17:45.440423
+Jolyne:byr
+Joestar:ok bye
+convo start:2025-04-18 20:24:04.790115
+Jolyne:bye
+Joestar:ok bye
+Jolyne:ok 
+Joestar:ok theb
+Jolyne:ok
+Joestar:ok
+Jolyne:hmm
+convo start:2025-04-19 00:03:01.655520
+Jolyne:hi
+Joestar:ok bye
+Jolyne:yea bye

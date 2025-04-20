@@ -1,0 +1,9 @@
+publishing 0 to topic pipe1
+publishing 2 to topic pipe1
+publishing 4 to topic pipe1
+publishing 6 to topic pipe1
+publishing 8 to topic pipe1
+publishing 10 to topic pipe1
+publishing 12 to topic pipe1
+publishing 14 to topic pipe1
+publishing 16 to topic pipe1
